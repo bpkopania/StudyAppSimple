@@ -50,7 +50,7 @@
             this.resetujBiezacaNaukeToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -61,7 +61,7 @@
             this.ustawieniaApliakcjiToolStripMenuItem});
             this.ustawieniaToolStripMenuItem.Enabled = false;
             this.ustawieniaToolStripMenuItem.Name = "ustawieniaToolStripMenuItem";
-            this.ustawieniaToolStripMenuItem.Size = new System.Drawing.Size(95, 26);
+            this.ustawieniaToolStripMenuItem.Size = new System.Drawing.Size(95, 24);
             this.ustawieniaToolStripMenuItem.Text = "Ustawienia";
             // 
             // wybierzZagadnieniaToolStripMenuItem
@@ -80,7 +80,7 @@
             // 
             this.resetujBiezacaNaukeToolStripMenuItem.Enabled = false;
             this.resetujBiezacaNaukeToolStripMenuItem.Name = "resetujBiezacaNaukeToolStripMenuItem";
-            this.resetujBiezacaNaukeToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
+            this.resetujBiezacaNaukeToolStripMenuItem.Size = new System.Drawing.Size(169, 24);
             this.resetujBiezacaNaukeToolStripMenuItem.Text = "Resetuj biezącą naukę";
             // 
             // tableLayoutPanel1
@@ -95,7 +95,7 @@
             this.tableLayoutPanel1.Controls.Add(this.Termin, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.knowBtn, 1, 3);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 30);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 28);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -145,6 +145,7 @@
             this.knowBtn.TabIndex = 3;
             this.knowBtn.Text = "Oznacz jako nauczone";
             this.knowBtn.UseVisualStyleBackColor = true;
+            this.knowBtn.Click += new System.EventHandler(this.knowBtn_Click);
             // 
             // Form1
             // 
